@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body style="margin:0px;padding:0px;">
+  <script>
+    console = {log:function(val){
+      let logEntry = document.createElement("p");
+      logEntry.style = "font-family:monospace;border-bottom:1px solid lightgray;color:gray;margin:0px;margin-top:0px;margin-bottom:1px;";
+      logEntry.textContent = val;
+      document.getElementById("log").appendChild(logEntry);
+    }};
+  </script>
+  <script type="module">
+  import KNOWN_LANGUAGES from "./scripts/known-languages.js";
+    window.addEventListener("storage", function(event) {
+      if (event.key === "running-known-languages") {
+        if(event.newValue === "true"){
+          document.getElementById("log").innerHTML = '<p style="border-top:1px solid lightgray;margin:0px;margin-top:0px;margin-bottom:1px;"></p>';
+          for(let key in KNOWN_LANGUAGES){
+            console.log(KNOWN_LANGUAGES[key]);
+          }
+        }
+      }
+    });
+  </script>
+  <div id="log">
+    <p style="border-top:1px solid lightgray;margin:0px;margin-top:0px;margin-bottom:1px;"></p>
+  </div>
+</body>
+</html>

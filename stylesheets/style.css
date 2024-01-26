@@ -1,0 +1,163 @@
+body {
+	background-color: black;
+	text-align: center;
+	overflow-x: hidden;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*body::-webkit-scrollbar
+{
+  display:none;
+}
+Removed for accessibility reasons
+*/
+iframe {
+	user-select: none;
+}
+
+image {
+	color: lightblue;
+	text-shadow: 2px 2px 5px lightblue;
+}
+
+br {
+	user-select: none;
+}
+
+.greeting {
+	font-size: 50px;
+}
+
+.shine-white {
+	color: white;
+	text-shadow: 2px 2px 5px white;
+}
+
+.shine-lightblue {
+	color: lightblue;
+	text-shadow: 2px 2px 5px lightblue;
+}
+
+.shine-purple {
+	color: purple;
+	text-shadow: 2px 2px 5px purple;
+}
+
+[data-slowprint=true] {
+	opacity: 0;
+	user-select: none;
+}
+
+.seperator {
+	width: 100px;
+	height: 1000px;
+}
+
+.content-title {
+	font-size: 40px;
+}
+
+.article-title {
+	font-size: 30px;
+}
+
+.title-content-seperator {
+	width: 100px;
+	height: 300px;
+}
+
+.textarea {
+	background-color: black;
+	color: white;
+	border: 1px solid gray;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.link {
+	color: #0056ff;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: darkblue;
+	text-shadow: none;
+	text-decoration: underline;
+}
+
+.link-original-format {
+	text-decoration: none;
+}
+
+.link-original-format:hover {
+	text-decoration: underline;
+}
+
+.copyright-link {
+	color: #0056ff;
+	font-size: 25px;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+.copyright-link:hover {
+	color: darkblue;
+	font-size: 25px;
+	text-shadow: none;
+	text-decoration: underline;
+}
+
+.codearea-code-textarea {
+	background-color: black;
+	color: green;
+	font-weight: bold;
+}
+
+#codearea-run-code-button-stopped {
+	border: 1px solid green;
+	background-color: darkgreen;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}
+
+#codearea-run-code-button-running {
+	border: 1px solid red;
+	background-color: #7a0000;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.codearea-output {
+	background-color: white;
+}
+
+.known-languages-code {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+#known-languages-run-button-stopped {
+	border: 1px solid green;
+	background-color: darkgreen;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}
+
+#known-languages-run-button-running {
+	border: 1px solid red;
+	background-color: #7a0000;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}

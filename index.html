@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Nyuutrino's portfolio">
+	<meta name="theme-color" content="black">
+	<meta name="author" content="Nyuutrino">
+	<meta name="keywords" content="portfolio,Nyuutrino's portfolio">
+	<link rel="icon" href="images/ico/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="stylesheets/style.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<title>Nyuutrino's portfolio</title>
+</head>
+
+<body>
+	<noscript>
+		<style>
+			body {
+				overflow: hidden;
+			}
+		</style>
+		<div
+			style="width:100%;height:100%;overflow:hidden;position:fixed;top:0;left:0;text-align:center;background-color:black;">
+			<h1 class="shine-white">No JavaScript?</h1>
+			<h5 class="shine-lightblue">That could be a problem...</h5>
+			<p class="shine-lightblue">This website relies on JavaScript to run. No JavaScript, no
+				website!<br /><br />How to fix? It's simple! Enable JavaScript to enjoy!</p>
+		</div>
+	</noscript>
+	<div id="main-body">
+		<br />
+		<h1 class="greeting shine-white" data-slowprint="true">Welcome! I'm Nyuutrino!</h1>
+		<div>
+			<h1 class="shine-white" data-slowprint="true">Scroll down to learn more about me...</h1>
+			<br />
+			<!--<p class="shine-lightblue" data-slowprint="true">Hint: Click anywhere to start music.</p>-->
+			<!--Not ready for music yet-->
+		</div>
+		<div class="seperator"></div>
+		<div>
+			<h1 class="shine-white content-title" data-slowprint="true">Who am I?</h1>
+		</div>
+		<div class="title-content-seperator"></div>
+		<div style="text-align:center;">
+			<div style="text-align:left;border-left:1px solid lightblue;margin-left:30%;padding-left:20px;"
+				data-aos="fade-right">
+				<div data-aos="slide-left">
+					<h1 class="shine-white article-title">Hi there, Nyuutrino's the name!</h1>
+				</div>
+				<div style="width:50%;">
+					<h2 class="shine-lightblue" data-aos="fade-right">I'm a proud amateur programmer.</h2>
+					<br />
+					<h2 class="shine-lightblue" data-aos="fade-left">I've been coding for a few years now. I'm always
+						interested in the lower level or statically typed languages like Go or C.</h2>
+					<h2 class="shine-lightblue" data-aos="fade-right">Among the languages I am familiar with (besides
+						English), I know HTML, CSS, JS, and PHP fairly well. I also know bits of Node JS, Go, and C/C++,
+						which I am aiming to expand my knowledge on.</h2>
+					<br />
+					<h2 class="shine-lightblue" data-aos="fade-right">I'm always curious, and I can never get enough of
+						that science (advanced & theoretical physics ftw)!</h2>
+					<br />
+					<h2 class="shine-lightblue" data-aos="fade-left">Want to contact me? Comment on the replit page</h2>
+				</div>
+			</div>
+		</div>
+		<div class="seperator"></div>
+		<div>
+			<h1 class="shine-white content-title" data-slowprint="true" data-inner-html="true"
+				data-html-injection="true" data-custom-type-speed="true" data-type-speed="40"
+				data-trigger-char-mode="true" data-trigger-char="58">My <a href="https://replit.com/@nyuutrino"
+					class="link">replit</a> profile</h1>
+		</div>
+		<div class="seperator"></div>
+		<div>
+			<h1 class="shine-white content-title" data-slowprint="true" data-inner-html="true"
+				data-html-injection="true" data-custom-type-speed="true" data-type-speed="40"
+				data-trigger-char-mode="true" data-trigger-char="58">My <a href="https://replit.com/@nyuutrino"
+					class="link">replit</a> profile</h1>
+		</div>
+		<div class="seperator"></div>
+		<div>
+			<h1 class="shine-white content-title" data-slowprint="true" data-inner-html="true"
+				data-html-injection="true" data-custom-type-speed="true" data-type-speed="40"
+				data-trigger-char-mode="true" data-trigger-char="58">My <a href="https://github.com/Nyuutrino"
+					class="link">Github</a> profile</h1>
+		</div>
+		<div class="seperator"></div>
+		<div>
+			<h1 class="shine-white content-title" data-slowprint="true">My passions...</h1>
+		</div>
+		<div class="title-content-seperator"></div>
+		<h1 class="shine-white content-title" data-slowprint="true" data-custom-type-speed="true" data-type-speed="100">
+			Coding.</h1>
+		<h3 class="shine-white" data-aos="fade-right" data-aos-delay="500">Of course!</h3>
+		<h3 class="shine-white" data-glitch="true">It's so fun!</h3>
+		<div class="title-content-seperator"></div>
+		<div class="codearea">
+			<textarea class="codearea-code-textarea" data-aos="fade-left"
+					rows="20" cols="50"></textarea>
+			<br />
+			<br />
+			<button id="codearea-run-code-button-stopped" class="codearea-run-code-button" data-aos="fade-right">Run
+				Code</button>
+			<br />
+			<br />
+			<iframe width="300px" height="200px" class="codearea-output" data-aos="fade-left"
+				style="transform:scale(0,0);" title="Code output" sandbox="allow-scripts allow-forms allow-modals">
+			</iframe>
+		</div>
+		<div class="title-content-seperator"></div>
+		<div class="known-languages">
+			<!-- Annoying that we have to format the text like this, but the whitespace causes problems otherwise -->
+			<textarea rows="4" cols="65" class="known-languages-code" readonly data-aos="fade-right"
+					data-slowprint="true">
+import KNOWN_LANGUAGES from "./scripts/known-languages.js";
+for(let key in KNOWN_LANGUAGES){
+	console.log(KNOWN_LANGUAGES[key]);
+}
+			</textarea>
+			<br />
+			<br />
+			<button id="known-languages-run-button-stopped" class="known-languages-run-button" data-aos="fade-left">Run
+				Code</button>
+			<br />
+			<br />
+			<iframe width="300px" height="200px" class="known-languages-output" data-aos="fade-right"
+				style="transform:scale(0.01,0.01);" title="Known Languages Output"
+				data-iframe-set-when-intersected="true" data-src="known-languages-output.html"></iframe>
+		</div>
+		<div class="title-content-seperator"></div>
+		<div class="title-content-seperator"></div>
+		<h1 class="shine-white content-title" data-slowprint="true" data-custom-type-speed="true" data-type-speed="50">
+			Science</h1>
+		<h3 class="shine-white" data-aos="fade-left" data-aos-delay="500">"Science doesn't make the world go around,
+			rather it tells us what does."<br />-Me</h3>
+		<div class="title-content-seperator"></div>
+		<textarea rows="13" cols="50" class="textarea" id="science-data"
+				readonly data-slowprint="true" data-custom-type-speed="true" data-type-speed="10">
+				</textarea>
+		<div class="title-content-seperator"></div>
+		<h1 class="shine-white content-title" data-slowprint="true">My favorite science subjects:</h1>
+		<br />
+		<h3 class="shine-white" data-aos="fade-right" data-aos-delay="1000">Physics (anything physics related), and
+			chemistry.</h3>
+		<div class="title-content-seperator"></div>
+		<div class="title-content-seperator"></div>
+		<h1 class="shine-white content-title" data-slowprint="true" data-custom-type-speed="true" data-type-speed="50">
+			Video games.</h1>
+		<h3 class="shine-white" data-aos="fade-right" data-aos-delay="500">Who doesn't love them?</h3>
+		<h6 class="shine-white" data-aos="fade-left" data-aos-delay="1000">Ok, maybe <i>some</i> people...</h6>
+		<div class="title-content-seperator"></div>
+		<h1 class="shine-white content-title" data-slowprint="true">My favorites:</h1>
+		<h6 class="shine-white" data-aos="fade-left" data-aos-delay="1000">Click on the title to go to the game.</h6>
+		<div class="title-content-seperator"></div>
+		<div style="display:flex;flex-direction:row;justify-content:center;">
+			<div data-aos="fade-left" style="padding-right:20px;">
+				<img class="image-show-when-onscreen"
+					data-src="https://cdn.cloudflare.steamstatic.com/steam/apps/107410/header.jpg" alt="Arma 3">
+			</div>
+			<div data-aos="fade-right" style="width:300px;">
+				<a href="https://store.steampowered.com/app/107410/Arma_3/" style="text-decoration: none;">
+					<h1 class="shine-white">Arma 3</h1>
+				</a>
+				<h3 class="shine-lightblue">Pow pow, boom boom! A fun and realistic military sandbox with detailed,
+					plotful and entertaining campaigns.
+				</h3>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div style="display:flex;flex-direction:row;justify-content:center;">
+			<div data-aos="fade-right" style="padding-right:20px;">
+				<img class="image-show-when-onscreen"
+					data-src="https://cdn.cloudflare.steamstatic.com/steam/apps/1248130/header.jpg"
+					alt="Farming Simulator 2022">
+			</div>
+			<div data-aos="fade-left" style="width:400px;">
+				<a href="https://store.steampowered.com/app/1248130/Farming_Simulator_22/"
+					style="text-decoration: none;">
+					<h1 class="shine-white">Farming Simulator 2022</h1>
+				</a>
+				<h3 class="shine-lightblue">Hop on that tractor and head out into the field to plant yer corn. Yessir,
+					this is the game for ya if ya like yer big farm machinery (or small farm machinery, up to you).</h3>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div style="display:flex;flex-direction:row;justify-content:center;">
+			<div data-aos="fade-left" style="padding-right:20px;">
+				<img class="image-show-when-onscreen"
+					data-src="https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg"
+					alt="American Truck Simulator">
+			</div>
+			<div data-aos="fade-right" style="width:400px;">
+				<a href="https://store.steampowered.com/app/270880/American_Truck_Simulator/"
+					style="text-decoration: none;">
+					<h1 class="shine-white">American Truck Simulator</h1>
+				</a>
+				<h3 class="shine-lightblue">Honk honk! Time to hop in your truck and head out onto the road. You're a
+					trucker now! So watch out for the cars, ok?</h3>
+			</div>
+		</div>
+		<br />
+		<div style="display:flex;flex-direction:row;justify-content:center;">
+			<div data-aos="fade-right" style="padding-right:20px;">
+				<img class="image-show-when-onscreen" data-src="images/minecraft.jpg" alt="Minecraft">
+			</div>
+			<div data-aos="fade-left" style="width:400px;">
+				<a href="https://www.minecraft.net/en-us" style="text-decoration: none;">
+					<h1 class="shine-white">Minecraft</h1>
+				</a>
+				<h3 class="shine-lightblue">This game needs no introduction. A sandbox game, allowing you to go wild
+					with your imagination... or go wild trying to survive. <i>Hehehe, I wonder what happens if I hit
+						that iron golem over there...</i></h3>
+			</div>
+		</div>
+		<div class="seperator"></div>
+		<h1 class="shine-white content-title" data-slowprint="true">My favorite songs</h1>
+		<h3 class="shine-lightblue" data-aos="fade-right">I am really into electronic music. I am also learning how to
+			produce my own!</h3>
+		<div class="title-content-seperator"></div>
+		<div style="display:flex;flex-direction:row;justify-content:center;">
+			<div data-aos="fade-left" style="padding: 0 20px; width: 50%;">
+				<iframe style="border-radius:12px"
+					src="https://open.spotify.com/embed/track/72vmaNXLCBClVUTJVHERqr?utm_source=generator" width="100%"
+					height="352" frameBorder="0" allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+					loading="lazy" title="Spotify player iframe - 'Don't be happy' by Aiobahn"></iframe>
+			</div>
+			<div data-aos="fade-right" style="width: 50%;">
+				<h1 class="shine-white">Aiobahn - しあわせになんてならないで - feat. ナナヲアカリ <i>(Don't be happy)</i></h1>
+				<h3 class="shine-lightblue" style="padding-left:10px;padding-right:10px;" data-aos="fade-right">The
+					mellow and yet moving feeling that this track evokes makes it one of my favorites. Aiobahn is an
+					awesome artist, and I enjoy listening to the songs he makes!</h3>
+			</div>
+		</div>
+		<div class="seperator"></div>
+		<div style="display:flex;flex-direction:row;justify-content:center;">
+			<div data-aos="fade-right" style="padding: 0 20px; width: 50%;">
+				<iframe style="border-radius:12px"
+					src="https://open.spotify.com/embed/track/6B2GooYt1P1mRLuPRHfJDr?utm_source=generator" width="100%"
+					height="352" frameBorder="0" allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+					loading="lazy" title="Spotify player iframe - 'No Sleep (VIP)' by Bossfight"></iframe>
+			</div>
+			<div data-aos="fade-left" style="width: 50%;">
+				<h1 class="shine-white">Bossfight - No Sleep (VIP)</h1>
+				<h3 class="shine-lightblue" style="padding-left:10px;padding-right:10px;" data-aos="fade-right">I love
+					how Bossfight makes his hard-hitting yet rhythmic and melodic sounds. That's one of the reasons why
+					the song found its way onto this list. Catchy, rhythmic and epic. Bossfight never disappoints, you
+					can be sure of that!</h3>
+			</div>
+		</div>
+		<div class="seperator"></div>
+		<div style="display:flex;flex-direction:row;justify-content:center;">
+			<div data-aos="fade-left" style="padding: 0 20px; width: 50%;">
+				<iframe style="border-radius:12px"
+					src="https://open.spotify.com/embed/track/5wEy787VwmAnA7GGhEzjHR?utm_source=generator" width="100%"
+					height="352" frameBorder="0" allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+					loading="lazy" title="Spotify player iframe - 'Can I friend you on Bassbook? lol' by Camellia"></iframe>
+			</div>
+			<div data-aos="fade-right" style="width: 50%;">
+				<h1 class="shine-white">Camellia - Can I friend you on Bassbook? lol</h1>
+				<h3 class="shine-lightblue" style="padding-left:10px;padding-right:10px;" data-aos="fade-right">Of
+					<i>course</i> you could expect me to mention Camellia on this list. This guy's a legend! So is this
+					song! He makes so many catchy songs that really blow me away. He's someone I look up to and hope to
+					be one day as an amateur producer, and I think he 100% deserves being my role model. Just like this
+					song 100% deserving a spot on this list!
+				</h3>
+			</div>
+		</div>
+		<div class="seperator"></div>
+		<div style="display:flex;flex-direction:row;justify-content:center;">
+			<div data-aos="fade-right" style="padding: 0 20px; width: 50%;">
+				<iframe style="border-radius:12px"
+					src="https://open.spotify.com/embed/track/65DBKaXg6JEc4T8aPobqtc?utm_source=generator" width="100%"
+					height="352" frameBorder="0" allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+					loading="lazy" title="Spotify player iframe - 'Before you leave' by Au5, Cyazon, Tyler Graves"></iframe>
+			</div>
+			<div data-aos="fade-left" style="width: 50%;">
+				<h1 class="shine-white">Au5, Cyazon, Tyler Graves - Before You Leave</h1>
+				<h3 class="shine-lightblue" style="padding-left:10px;padding-right:10px;" data-aos="fade-right">Au5 is
+					one of the first artists that come into mind when I hear the term "melodic dubstep." His level of
+					sound design is mindblowing, and his capability to transform these sounds into an ethereal
+					soundscape that takes you through an emotional journey is unparalleled. This song reflects these
+					qualities of Au5. It's why I put it on this list!</h3>
+			</div>
+		</div>
+		<div class="seperator"></div>
+		<h1 class="shine-white content-title" data-slowprint="true">My projects &lt;/&gt;</h1>
+		<p class="shine-lightblue" data-aos="fade-right" style="padding: 0 60px;">Update: Unfortunately, replit has
+			deprecated free hosting, so websites made with anything other than pure HTML/CSS/JS (i.e, using PHP/NodeJS)
+			need to be "deployed", which costs money. Most of these projects I did for the purpose of entertainment and
+			growth, so I don't want to spend money on them. You can still see the replit project, but the website will
+			no longer be accessible other than by running the repl.</p>
+		<div class="title-content-seperator"></div>
+		<div data-change-background-on-intersecting="true" data-img-url="images/stargaze.png"
+			data-additional-styles="filter:blur(3px);"
+			style="border:1px solid white;border-radius:15px;margin:0 auto;width:50%;height:100%;background-color:black;opacity:0.7;"
+			data-aos="fade-up">
+			<h1 class="shine-white" data-aos="fade-left"><a class="link-link-original-format shine-white"
+					href="https://replit.com/@Nyuutrino/Stargaze?v=1">Stargaze</a></h1>
+			<h3 class="shine-lightblue" style="padding-left:10px;padding-right:10px;" data-aos="fade-right">An
+				interactive Stargazing simulator. Downloadable as a PWA (web app), and fully functional offline (as well
+				as having cache control), this was a month long project that took a lot of effort and I am very proud
+				of.</h3>
+		</div>
+		<div class="seperator"></div>
+		<div data-change-background-on-intersecting="true" data-img-url="images/clip.png"
+			data-additional-styles="filter:blur(3px);"
+			style="border:1px solid white;border-radius:15px;margin:0 auto;width:50%;height:100%;background-color:black;opacity:0.7;"
+			data-aos="fade-up">
+			<h1 class="shine-white" data-aos="fade-left"><a class="link-link-original-format shine-white"
+					href="https://replit.com/@Nyuutrino/CLIp">CLIp</a></h1>
+			<h3 class="shine-lightblue" style="padding-left:10px;padding-right:10px;" data-aos="fade-right">CLIp was my
+				attempt at making a CLI language. It was pretty fun and for a while I was working hard on it. Alas, this
+				project didn't last long. However, its remanents serves as a valuable reminder of how much I learned.
+				The website was my first large project in which I used a server language (Go) extensively, and the
+				language itself helped me understand more about how a programming language works behind the scenes and
+				allowed me to better appreciate its intricate and beautiful nature. I enjoyed the journey very much and
+				was glad that I made it.</h3>
+		</div>
+		<div class="seperator"></div>
+		<div data-change-background-on-intersecting="true" data-img-url="images/fakeBSoD.png"
+			data-additional-styles="filter:blur(3px);"
+			style="border:1px solid white;border-radius:15px;margin:0 auto;width:50%;height:100%;background-color:black;opacity:0.7;"
+			data-aos="fade-up">
+			<h1 class="shine-white" data-aos="fade-left"><a class="link-link-original-format shine-white"
+					href="https://repl.it/talk/share/Prank-blue-screen-of-death-SO-REALISTIC/55162">Fake BSoD</a></h1>
+			<h3 class="shine-lightblue" style="padding-left:10px;padding-right:10px;" data-aos="fade-right">This was
+				meant as a prank for my Dad because I wanted him to think I broke my school computer... so I made a
+				windows-like BSoD to trick him (it partially worked).</h3>
+		</div>
+		<div class="seperator"></div>
+		<h1 class="shine-white" data-slowprint="true" data-custom-type-speed="true" data-type-speed="50">My
+			collaborations &lt;/&gt;</h1>
+		<div class="title-content-seperator"></div>
+		<div data-change-background-on-intersecting="true" data-img-url="images/SortaCraft.png"
+			data-additional-styles="filter:blur(3px);"
+			style="border:1px solid white;border-radius:15px;margin:0 auto;width:50%;height:100%;background-color:black;opacity:0.7;"
+			data-aos="fade-up">
+			<h1 class="shine-white" data-aos="fade-left"><a class="link-link-original-format shine-white"
+					href="https://repl.it/talk/share/SortaCraft-039-Alpha/58643">Sorta-Craft</a></h1>
+			<h3 class="shine-lightblue" style="padding-left:10px;padding-right:10px;" data-aos="fade-right">A
+				Minecraft-remake made by Tussiez. I saw his wonderful game and couldn't resist asking him to let me
+				collaborate on it. Through my collaboration I have helped him make it work offline, make a version
+				system, and now even helping make it have a terminal where users can execute commands! A lovable game
+				that I shall never forget.</h3>
+		</div>
+		<div class="seperator"></div>
+		<div>
+			<h1 class="title shine-white" data-slowprint="true" data-custom-type-speed="true" data-type-speed="40">Thank
+				you for reading my portfolio! I hope you liked it!</h1>
+			<div class="title-content-seperator"></div>
+		</div>
+		<div class="title-content-seperator"></div>
+		<h2 class="shine-lightblue">&copy; 2024 - A work of art by <a class="copyright-link"
+				href="https://replit.com/@Nyuutrino">Nyuutrino</a></h2>
+	</div>
+	<script>
+		function importScripts(scriptArr, stopOnError) {
+			if (typeof stopOnError !== typeof void (0)) {
+				if (typeof stopOnError !== typeof true) {
+					throw new Error("Parameter \"stopOnError\" is set and is not of type \"" + typeof true + "\".");
+				}
+			}
+			let i = 0;
+			let resultsArr = [];
+			let iterScripts = function (scripts) {
+				if (i >= scriptArr.length) {
+					return resultsArr;
+				}
+				else {
+					let importScript = function (scriptObj) {
+						return new Promise(function (res, rej) {
+							let src = scriptObj[0];
+							let node = scriptObj[1];
+							let attributes = scriptObj[2];
+							let script = document.createElement("script");
+							script.src = src;
+							try {
+								node.appendChild(script);
+							}
+							catch (err) {
+								console.error("Script could not be appended to the node.", "Error: " + err);
+								rej(err);
+							}
+							script.onload = function () {
+								if (typeof attributes !== typeof void (0)) {
+									if (typeof attributes !== "object") {
+										console.error("Parameter \"attributes\" must be an array containing 1 or more arrays with the attribute name, and content.");
+										rej("Parameter \"attributes\" must be an array containing 1 or more arrays with the attribute name, and content.");
+									}
+									else {
+										try {
+											attributes.forEach(function (v) {
+												script.setAttribute(v[0].toString(), v[1].toString());
+											});
+										}
+										catch (err) {
+											console.error("Parameter \"attributes\" could not be iterated with \"forEach()\". Did you pass in an array-like object? If so, only pass in arrays. Error: " + err);
+											rej(err);
+										}
+									}
+								}
+								console.log("Script loaded: " + src.toString());
+								res(script);
+							};
+							script.onerror = function () {
+								console.error("Script \"" + src + "\" could not be loaded.");
+								rej("Script could not be loaded.");
+							};
+						});
+					};
+					return importScript(scripts).then(function (val) {
+						resultsArr.push([1, val]);
+						i++;
+						return iterScripts(scriptArr[i]);
+					}).catch(function (val) {
+						if (stopOnError) {
+							throw val;
+						}
+						resultsArr.push([0, val]);
+						i++;
+						return iterScripts(scriptArr[i]);
+					});
+				}
+			};
+			return new Promise(function (res, rej) {
+				if (typeof scriptArr !== typeof []) {
+					rej("Parameter \"scriptArr\" is not of type \"object\".");
+
+				}
+				iterScripts(scriptArr[i]).then(function (val) {
+					res(val);
+				}).catch(function (val) {
+					if (stopOnError) {
+						rej(val);
+					}
+					res(val);
+				});
+			});
+		}
+		/*https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js*/
+		/*Actually...*/
+		/*https://unpkg.com/aos@next/dist/aos.js*/
+		window.addEventListener("DOMContentLoaded", function () {
+			importScripts([["https://unpkg.com/aos@next/dist/aos.js", document.body, [["defer", ""]]], ["scripts/script.min.js", document.body, [["defer", ""]]]], true).then(function (val) { return val; }).catch(function (err) { console.warn(err); return err; });
+		});
+	</script>
+</body>
+
+</html>
